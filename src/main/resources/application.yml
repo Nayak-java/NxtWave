@@ -1,0 +1,16 @@
+server:
+  port: 0
+spring:
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: NxtWave
+    password: welcome1
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+  jpa:
+    hibernate:
+      ddl-auto: update
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.OracleDialect
+
+
